@@ -1,0 +1,40 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore environment variables and secrets
+.env
+*.env
+
+# Ignore dependency logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore Python egg files
+*.egg-info/
+dist/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# Ignore Flask instance and uploads
+instance/
+uploads/
